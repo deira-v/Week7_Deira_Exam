@@ -2,6 +2,7 @@ package ie.atu;
 
 public class Product {
     //fields of Product
+    private int totalItems;
     private String productID;
     private String name;
     private double price;
@@ -9,6 +10,7 @@ public class Product {
 
     //Constructor
     public Product(){
+        totalItems = 0;
         productID = "";
         name = "";
         price = 0;
